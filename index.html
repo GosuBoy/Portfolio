@@ -6,10 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + TS</title>
   </head>
-  <body>
-    <div id="app">
-      <div>PORTFOLIO</div>
-    </div>
+  <body class="flex flex-col gap-32 pt-12">
+    <header class="flex justify-center text-center fixed top-0 w-full pt-12">
+      <nav>↓</nav>
+    </header>
+    <main class="px-12 flex flex-col gap-16">
+      <div class="flex justify-between">
+        <div class="text-left">
+          <div>
+            Building
+            <br />
+            Cool Shit
+          </div>
+          <div>For The World Wide Web</div>
+        </div>
+        <div class="text-right">
+          <div>
+            Javier
+            <br />
+            Vera
+          </div>
+          <div>Designer + Developer</div>
+        </div>
+      </div>
+      <div class="flex flex-col gap-5">
+        <div class="flex gap-5">
+          <div class="w-full bg-amber-900 rounded aspect-square p-3.5">
+            About
+          </div>
+          <div class="w-full bg-blue-900 rounded aspect-square p-3.5">
+            Contact
+          </div>
+          <div class="w-full bg-lime-950 rounded aspect-square p-3.5">Work</div>
+          <div class="w-full bg-purple-900 rounded aspect-square p-3.5">
+            Blog
+          </div>
+        </div>
+        <div class="flex gap-5">
+          <div class="w-full bg-neutral-900 rounded aspect-square p-3.5">
+            About
+          </div>
+          <div class="w-full bg-neutral-900 rounded aspect-square p-3.5">
+            Contact
+          </div>
+          <div class="w-full bg-neutral-900 rounded aspect-square p-3.5">
+            Work
+          </div>
+          <div class="w-full bg-neutral-900 rounded aspect-square p-3.5">
+            Blog
+          </div>
+          <div class="w-full bg-neutral-900 rounded aspect-square p-3.5">
+            Blog
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="px-12">
+      <div>Designed & Developed By Javier Vera</div>
+    </footer>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
